@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Expanding Boxes</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="box-container">
+      <div class="heading-container">
+        <div class="left-border"></div>
+        <div class="heading">YAY! It's BOGO</div>
+        <div class="right-border"></div>
+      </div>
+      <div class="box">
+        <div class="box-top-container">
+          <div class="box-top-left-container">
+            <div class="circular-check-box" id="circularCheckBox-3">
+              <div class="inner-circular-check-box"></div>
+            </div>
+            <div style="flex-direction: column">
+              <div style="display: flex; margin-bottom:5px;" >
+                <div class="fs-28-fw-600" style="margin-right: 15px;">1 Unit</div>
+                <div class="discount">10% Off</div>
+              </div>
+              <div class="standard-price">Standard Price</div>
+            </div>
+          </div>
+          <div class="price">
+            <div class="fs-28-fw-600">$10.00 USD</div>
+            <div class="price-before-discount">
+              $24.00 USD
+              <div class="price-cut"></div>
+            </div>
+          </div>
+        </div>
+        <div class="box-bottom-container">
+          <div class="box-bottom-container-heading">
+            <span>Size</span>
+            <span>Colour</span>
+          </div>
+          <div class="multiple-unit-container"></div>
+        </div>
+      </div>
+      <div class="box box-2">
+        <div class="most-popular">MOST POPULAR</div>
+        <div class="box-top-container">
+          <div class="box-top-left-container">
+            <div class="circular-check-box" id="circularCheckBox-3">
+              <div class="inner-circular-check-box"></div>
+            </div>
+            <div class="fs-28-fw-600">2 Unit</div>
+            <div class="discount">20% Off</div>
+          </div>
+          <div class="price">
+            <div class="fs-28-fw-600">$18.00 USD</div>
+            <div class="price-before-discount">
+              $24.00 USD
+              <div class="price-cut"></div>
+            </div>
+          </div>
+        </div>
+        <div class="box-bottom-container">
+          <div class="box-bottom-container-heading">
+            <span>Size</span>
+            <span>Colour</span>
+          </div>
+          <div class="multiple-unit-container"></div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-top-container">
+          <div class="box-top-left-container">
+            <div class="circular-check-box" id="circularCheckBox-3">
+              <div class="inner-circular-check-box"></div>
+            </div>
+            <div class="fs-28-fw-600">3 Unit</div>
+            <div class="discount">30% Off</div>
+          </div>
+          <div class="price">
+            <div class="fs-28-fw-600">$24.00 USD</div>
+            <div class="price-before-discount">
+              $24.00 USD
+              <div class="price-cut"></div>
+            </div>
+          </div>
+        </div>
+        <div class="box-bottom-container">
+          <div class="box-bottom-container-heading">
+            <span>Size</span>
+            <span>Colour</span>
+          </div>
+          <div class="multiple-unit-container"></div>
+        </div>
+      </div>
+      <div class="total-amount-container">
+        <div class="free-delivery fs-28-fw-600">
+           Free Delivery
+        </div>
+        <div class="total fs-28-fw-600">
+            
+        </div>
+      </div>
+      <button class="add-to-cart-btn">
+          + Add to Cart
+      </button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
